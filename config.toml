@@ -1,0 +1,60 @@
+BaseURL = "https://jennych.github.io/blog/"
+LanguageCode = "zh-CN"
+HasCJKLanguage = true
+Title = "JennyCh Blog"
+Theme = ""
+pygmentsStyle = "default"
+pygmentsUseClasses = true
+RSSUri = "feed.xml"
+
+[Author]
+  Name = "JennyCh"
+
+[Params]
+  AuthorHomepage = "https://jennych.github.io/blog/"
+  BottomIntroduce = "IT Engineer <br/> Web Developer "
+  Description = ""
+  Subtitle = "welcome to my blog page !"
+  Weibo = "chaishipeng"
+  WeiboID = ""
+  Twitter = ""
+  GitHub = "jennych"
+  Facebook = ""
+  LinkIn = ""
+  Imglogo = "img/logo.png"
+  AuthorImg = "img/author.jpg"
+  DateFormat = "2006年01月02日"
+  MonthFormat = "2006年01月"
+  FancyBox = true
+
+  #[Params.DuoShuo]
+    ShortName = ""
+
+  [Params.Disqus]
+    ShortName = ""
+
+  [Params.GoogleAnalytics]
+    ID = ""
+
+  [Params.Strings]
+    Search = "搜索"
+    PageNotFound = "你访问的页面不存在"
+    ShowSideBar = "显示侧边栏"
+    HideSideBar = "隐藏侧边栏"
+    Categories = "分类"
+    Archive = "归档"
+    Tags = "标签"
+    TagCloud = "标签云"
+    Rss = "RSS 订阅"
+    TableOfContents = "文章目录"
+
+[Menu]
+  [[Menu.Main]]
+    Name = "首页"
+    URL = "/post"
+    Weight = 1
+
+  [[Menu.Main]]
+    Name = "关于"
+    URL = "/about"
+    Weight = 4
